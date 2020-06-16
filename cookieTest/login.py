@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 import csv
 
-# 测试通过cookie绕开验证码登陆公司邮箱
+# 测试通过cookie绕开验证码，登陆公司邮箱
 
 url = "https://mail.bonc.com.cn/"
 driver = webdriver.Chrome()
